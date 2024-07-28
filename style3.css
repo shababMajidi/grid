@@ -1,0 +1,66 @@
+.continer{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows:1fr 3fr 3fr 2fr 1fr ;
+    grid-gap: 16px;
+     background: #bda3a3;
+
+}
+.website{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background:#70a3f0 ;
+}
+.contact{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: #fafafa;
+}
+.about{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #fafafa;
+}
+.box1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #fafafa;
+}
+.box2{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #fafafa;
+}
+.box3{
+    grid-column-start: 2;
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+    background: #fafafa;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:5 ;
+    grid-row-end: 6;
+    background: #fafafa;
+}
+
+h1{
+    color: rgb(230, 225, 225);
+}
+
